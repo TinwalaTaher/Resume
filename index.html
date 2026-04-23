@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        @page {
+            size: A4;
+            margin: 15mm;
+            background-color: #ffffff;
+        }
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            color: #333;
+            line-height: 1.5;
+            margin: 0;
+            padding: 0;
+            font-size: 10pt;
+        }
+        .header {
+            text-align: center;
+            border-bottom: 2px solid #2c3e50;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .header h1 {
+            margin: 0;
+            color: #2c3e50;
+            font-size: 24pt;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .header .title {
+            font-size: 14pt;
+            color: #34495e;
+            font-weight: bold;
+            margin-top: 5px;
+        }
+        .contact-info {
+            margin-top: 10px;
+            font-size: 9.5pt;
+        }
+        .section {
+            margin-bottom: 18px;
+        }
+        .section-title {
+            color: #2c3e50;
+            font-size: 13pt;
+            font-weight: bold;
+            border-left: 5px solid #2c3e50;
+            padding-left: 10px;
+            margin-bottom: 10px;
+            background-color: #f8f9fa;
+        }
+        .summary p {
+            margin: 0;
+            text-align: justify;
+        }
+        .skills-grid {
+            display: table;
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .skills-row {
+            display: table-row;
+        }
+        .skills-label {
+            display: table-cell;
+            font-weight: bold;
+            width: 30%;
+            padding: 4px 0;
+            vertical-align: top;
+        }
+        .skills-value {
+            display: table-cell;
+            padding: 4px 0;
+        }
+        .job {
+            margin-bottom: 15px;
+        }
+        .job-header {
+            display: flex;
+            justify-content: space-between;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+        .job-title {
+            font-style: italic;
+            color: #555;
+            margin-bottom: 5px;
+        }
+        .job-list {
+            margin: 5px 0 0 0;
+            padding-left: 20px;
+        }
+        .job-list li {
+            margin-bottom: 3px;
+        }
+        .project {
+            margin-bottom: 10px;
+        }
+        .project-name {
+            font-weight: bold;
+            color: #2c3e50;
+        }
+        .edu-item {
+            margin-bottom: 8px;
+        }
+        .edu-header {
+            display: flex;
+            justify-content: space-between;
+            font-weight: bold;
+        }
+        .flex-container {
+            display: flex;
+            justify-content: space-between;
+        }
+        .right {
+            text-align: right;
+        }
+    </style>
+</head>
+<body style="margin:20px">
+
+    <div class="header">
+        <h1>Taher Tinwala</h1>
+        <div class="title">Senior .NET Developer | Lead Technology Architect</div>
+        <div class="contact-info">
+            📧 taher.tinwala@outlook.com &nbsp; | &nbsp; 📞 +91 8160129833 &nbsp; | &nbsp; 📍 Ahmedabad, Gujarat<br>
+            LinkedIn: <a href="https://in.linkedin.com/in/taher-tinwala-mvc" target="_blank">taher-tinwala-mvc</a>        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">PROFESSIONAL SUMMARY</div>
+        <div class="summary">
+            <p>Results-driven Senior .NET Developer and Tech Lead with over 7 years of experience building scalable, high-performance web applications. Expertise in system architecture (CQRS, Microservices, N-Tier) and performance optimization for enterprise-level and government applications. Proven track record in leading development teams, mentoring junior developers, and delivering production-grade solutions using modern technologies like .NET 8, React, and Azure DevOps.</p>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">CORE SKILLS</div>
+        <div class="skills-grid">
+            <div class="skills-row">
+                <div class="skills-label">Languages & Frameworks:</div>
+                <div class="skills-value">C#, .NET 8/Core, ASP.NET MVC, Web API, Entity Framework, LINQ</div>
+            </div>
+            <div class="skills-row">
+                <div class="skills-label">Frontend & Web:</div>
+                <div class="skills-value">React (TypeScript), Angular, JavaScript, HTML5, CSS3, Bootstrap</div>
+            </div>
+            <div class="skills-row">
+                <div class="skills-label">Databases & ORMs:</div>
+                <div class="skills-value">SQL Server, MongoDB, MySQL, Dapper, ADO.NET</div>
+            </div>
+            <div class="skills-row">
+                <div class="skills-label">Architecture & Tools:</div>
+                <div class="skills-value">CQRS, Microservices, N-Tier, Azure DevOps, Git, CI/CD, Agile/Scrum</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">PROFESSIONAL EXPERIENCE</div>
+        
+        <div class="job">
+            <div class="flex-container">
+                <div class="job-header">IT Path Solutions</div>
+                <div class="right">May 2023 – Present</div>
+            </div>
+            <div class="job-title">Lead Technology Architect</div>
+            <ul class="job-list">
+                <li>Leading architectural design for enterprise applications using .NET 8 and Microservices.</li>
+                <li>Implemented CQRS pattern, significantly improving system scalability and maintainability.</li>
+                <li>Optimized high-traffic APIs and complex database queries, reducing response times by focusing on performance bottlenecks.</li>
+                <li>Implemented clean architecture practices to ensure high code maintainability and testability.</li>
+                <li>Mentoring developers and managing Agile workflows via Azure Boards to ensure timely delivery of production-grade solutions.</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <div class="flex-container">
+                <div class="job-header">Whiz Software Solutions Pvt. Ltd.</div>
+                <div class="right">Jul 2021 – Apr 2023</div>
+            </div>
+            <div class="job-title">ASP.NET MVC Developer</div>
+            <ul class="job-list">
+                <li>Developed and maintained scalable web applications using ASP.NET MVC and SQL Server.</li>
+                <li>Improved application performance through advanced query optimization and strategic caching.</li>
+
+            </ul>
+        </div>
+
+        <div class="job">
+            <div class="flex-container">
+                <div class="job-header">Adit Microsys Pvt. Ltd.</div>
+                <div class="right">Apr 2019 – Jun 2021</div>
+            </div>
+            <div class="job-title">ASP.NET Core Developer</div>
+            <ul class="job-list">
+                <li>Built robust REST APIs using .NET Core and Web API for government and enterprise-level clients.</li>
+                <li>Successfully delivered multiple projects focused on secure data processing and application efficiency.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">KEY PROJECTS</div>
+        <div class="project">
+            <span class="project-name">Agreement Management System (Catina):</span> Designed scalable backend architecture with NoSQL integration using .NET 8, CQRS, Microservices, and Angular.
+        </div>
+        <div class="project">
+            <span class="project-name">Intelligent Count Management (ICM):</span> Spearheaded the development of a high-efficiency data processing system using React (TypeScript), .NET 8, and SQL Server.
+        </div>
+        <div class="project">
+            <span class="project-name">Loan Management Systems:</span> Delivered enterprise solutions for multiple government organizations (RUDF, GGDC, etc.) utilizing .NET Core and MySQL.
+        </div>
+        <div class="project">
+            <span class="project-name">Inventory Management (SRX Cloud):</span> Developed high-performance APIs using .NET Core and Dapper with an Angular frontend for Inventory Management and reporting.
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">EDUCATION</div>
+        <div class="edu-item">
+            <div class="flex-container">
+                <div><strong>B.E. Computer Engineering</strong> - L.D.R.P Institute of Technology</div>
+                <div class="right">2019 | 6.97 CGPA</div>
+            </div>
+        </div>
+        <div class="edu-item">
+            <div class="flex-container">
+                <div><strong>Diploma in Computer Engineering</strong> - Government Polytechnic Dahod</div>
+                <div class="right">2016 | 7.4 CGPA</div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
